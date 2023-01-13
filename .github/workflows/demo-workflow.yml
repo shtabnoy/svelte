@@ -2,7 +2,8 @@ Name: Starter workflow demo
 
 on:
   push:
-    branches: [$default-branch]
+    branches:
+      - main
 
 jobs:
   build:
